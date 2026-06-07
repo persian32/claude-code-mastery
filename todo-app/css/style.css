@@ -1,0 +1,14 @@
+/* 커스텀 스타일 - Tailwind 유틸리티로 부족한 부분 보완 */
+
+/* 스크린리더 전용 (Tailwind sr-only 보조) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
